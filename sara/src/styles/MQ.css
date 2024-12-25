@@ -1,0 +1,843 @@
+@media (min-width: 200px) and (max-width: 300px) {
+  nav a {
+    font-size: 12px !important;
+  }
+  .head1 {
+    display: none !important;
+  }
+  .head2 {
+    display: none !important;
+  }
+  .bannermain h1 {
+    font-size: 1.7em !important;
+    line-height: 39px !important;
+  }
+  .bannermain .pt-28 {
+    padding-top: 3rem !important;
+  }
+  .bannermain .ps-4 {
+    padding-left: 4.5rem !important;
+  }
+  .bannermain .items {
+    padding-bottom: 61.25% !important;
+  }
+  .bannermain .p-49 {
+    padding: 49px 0 !important;
+  }
+  .bannermain .h-\[350px\] {
+    height: 280px !important;
+  }
+  .pb-60 {
+    padding-bottom: 11rem !important;
+  }
+  p {
+    font-size: 12px !important;
+  }
+  .footer {
+    padding: 15px;
+  }
+  .hidden {
+    display: none;
+  }
+  .stickycard h3 {
+    font-size: 1.3em !important;
+  }
+  .stickycard .pt-5 {
+    padding-top: 2rem !important;
+  }
+  .stickycard p {
+    font-size: 15px !important;
+  }
+  .stickycard .p-5 {
+    padding: 2rem !important;
+  }
+  .supportbeforecourse ul li {
+    font-size: 13px !important;
+  }
+  .supportaftercourse ul li {
+    font-size: 13px !important;
+  }
+  .supportaftercourse .ps-16 {
+    padding-left: 1rem !important;
+  }
+  .BookSec .flex {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  .BookSec .book {
+    padding-bottom: 10px !important;
+  }
+  .BookSec .BookPara {
+    padding-top: 60px !important;
+  }
+  .BookSec .BookPara p {
+    font-size: 15px !important;
+  }
+  .BookSec .BookPara .pt-5 {
+    padding-top: 1rem !important;
+  }
+  .reviews .text-4xl {
+    font-size: 1.7rem !important;
+  }
+  .reviews p {
+    font-size: 15px !important;
+  }
+  .reviews .tv1,
+  .reviews .tv2,
+  .reviews .tv3 {
+    display: none !important;
+  }
+  .reviews .text-xl {
+    font-size: 1em !important;
+    line-height: 21px !important;
+  }
+  .reviews .pt-4 {
+    padding: 1.5rem 0 !important;
+  }
+  .reviews .cont p {
+    font-size: 13px !important;
+  }
+  .reviews .wrap {
+    padding: 40px 0 !important;
+  }
+  .reviews .testim .dots {
+    bottom: 31px !important;
+    left: -16px !important;
+  }
+  .certificates .text-4xl {
+    font-size: 1.7rem !important;
+  }
+  .certificates p {
+    font-size: 13px !important;
+  }
+  .seminar .text-4xl {
+    font-size: 1.7rem !important;
+  }
+  .seminar p {
+    font-size: 13px !important;
+  }
+  .student-corner .text-4xl {
+    font-size: 1.7rem !important;
+  }
+  .student-corner .sc1,
+  .student-corner .sc2,
+  .student-corner .sc3 {
+    display: none !important;
+  }
+  .student-corner .ps-16 {
+    padding-left: 2rem !important;
+  }
+  .student-corner ul li {
+    font-size: 13px !important;
+  }
+  .student-corner .h-\[400px\] {
+    padding-top: 35px !important;
+  }
+  .student-corner .Btn {
+    width: 180px !important;
+  }
+  .student-corner .Btn::after {
+    display: none !important;
+  }
+  .courses .text-4xl,
+  .courses .text-3xl {
+    font-size: 1.7rem !important;
+  }
+  .courses .pt-32,
+  .courses .ps-40 {
+    padding-top: 0px !important;
+    padding-left: 0px !important;
+  }
+  .courses ul {
+    padding: 0;
+  }
+  .courses ul li {
+    font-size: 13px !important;
+  }
+  .courses .card {
+    text-align: center !important;
+  }
+  .courses .card__overlay a .ms-4 {
+    margin-bottom: 20px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  .courses .batchtime .py-5 {
+    padding: 1rem 12px !important;
+  }
+  .basiccourse .text-4xl,
+  .basiccourse .text-3xl {
+    font-size: 1.7rem !important;
+  }
+  .basiccourse .col-9 {
+    width: 100% !important;
+  }
+  .basiccourse td,
+  .basiccourse th,
+  .basiccourse h6 {
+    font-size: 12px !important;
+  }
+  .companies .serviceBox:before {
+    height: 320px !important;
+  }
+  .companies .h-28 {
+    height: 4rem !important;
+  }
+  .companies .swing {
+    -webkit-animation: none;
+            animation: none;
+  }
+  .success .text-4xl,
+  .success .text-3xl {
+    font-size: 1.3rem !important;
+  }
+  .success .pb-28 {
+    padding-bottom: 4rem !important;
+  }
+  .success .col-10 {
+    width: 100% !important;
+  }
+  .success .ps-5 {
+    padding-left: 0px !important;
+  }
+  .success .p-5 {
+    padding: 10px 5px !important;
+  }
+  .profile-card {
+    height: 181px !important;
+    margin-bottom: 40px !important;
+  }
+  .profile-card h3 {
+    font-size: 1.1em !important;
+  }
+  .profile-card:hover {
+    height: 258px !important;
+  }
+  .forgetpsw .w-75,
+  .resetpsw .w-75 {
+    width: 100% !important;
+  }
+  .footers ul li {
+    padding-bottom: 10px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+  nav a {
+    font-size: 16px !important;
+  }
+  .head1 {
+    display: none !important;
+  }
+  .head2 {
+    display: none !important;
+  }
+  .container .mx-auto {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+  }
+  .bannermain .bannerimg {
+    display: block !important;
+    width: 100% !important;
+    padding-top: 80px !important;
+    height: 257px !important;
+  }
+  .bannermain .bannerimg .obj4 {
+    -webkit-transform: translateX(-13.736px) translateY(0.312px);
+            transform: translateX(-13.736px) translateY(0.312px);
+  }
+  .bannermain .bannerimg .obj3 {
+    -webkit-transform: translateX(-0.824px) translateY(0.208px);
+            transform: translateX(-0.824px) translateY(0.208px);
+  }
+  .bannermain .bannerimg .obj5 {
+    -webkit-transform: translateX(5.512px) translateY(-5.568px);
+            transform: translateX(5.512px) translateY(-5.568px);
+  }
+  .bannermain .items {
+    padding-bottom: 78.25%;
+  }
+  .stickycard h3 {
+    font-size: 1.3em !important;
+  }
+  .stickycard .pt-5 {
+    padding-top: 2rem !important;
+  }
+  .stickycard p {
+    font-size: 1.3em !important;
+  }
+  .stickycard .p {
+    font-size: 15px !important;
+  }
+  .stickycard .p-5 {
+    padding: 2rem !important;
+  }
+  .reviews .text-4xl {
+    font-size: 1.7rem !important;
+  }
+  .reviews p {
+    font-size: 15px !important;
+  }
+  .reviews .tv1,
+  .reviews .tv2,
+  .reviews .tv3 {
+    display: none !important;
+  }
+  .reviews .text-xl {
+    font-size: 1em !important;
+    line-height: 21px !important;
+  }
+  .reviews .pt-4 {
+    padding: 1.5rem 0 !important;
+  }
+  .reviews .cont p {
+    font-size: 13px !important;
+  }
+  .reviews .wrap {
+    padding: 40px 0 !important;
+  }
+  .reviews .testim .dots {
+    bottom: 31px !important;
+    left: -16px !important;
+  }
+  .supportbeforecourse ul li {
+    font-size: 13px !important;
+  }
+  .supportaftercourse ul li {
+    font-size: 13px !important;
+  }
+  .supportaftercourse .ps-16 {
+    padding-left: 1rem !important;
+  }
+  .BookSec .flex {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  .BookSec .book {
+    padding-bottom: 10px !important;
+  }
+  .BookSec .BookPara {
+    padding-top: 60px !important;
+  }
+  .BookSec .BookPara p {
+    font-size: 12px !important;
+  }
+  .BookSec .BookPara .pt-5 {
+    padding-top: 1rem !important;
+  }
+  .student-corner .text-4xl {
+    font-size: 1.7rem !important;
+  }
+  .student-corner .sc1,
+  .student-corner .sc2,
+  .student-corner .sc3 {
+    display: none !important;
+  }
+  .student-corner .ps-16 {
+    padding-left: 2rem !important;
+  }
+  .student-corner ul li {
+    font-size: 13px !important;
+  }
+  .student-corner .h-\[400px\] {
+    padding-top: 35px !important;
+  }
+  .student-corner .Btn {
+    width: 140px !important;
+  }
+  .student-corner .Btn::after {
+    display: none !important;
+  }
+  .courses .text-4xl,
+  .courses .text-3xl {
+    font-size: 1.7rem !important;
+  }
+  .courses .pt-32,
+  .courses .ps-40 {
+    padding-top: 0px !important;
+    padding-left: 0px !important;
+  }
+  .courses ul {
+    padding: 0;
+  }
+  .courses ul li {
+    font-size: 13px !important;
+  }
+  .courses .card {
+    text-align: center !important;
+  }
+  .courses .card__overlay a .ms-4 {
+    margin-bottom: 20px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  .courses .batchtime .py-5 {
+    padding: 1rem 12px !important;
+  }
+  .basiccourse .text-4xl,
+  .basiccourse .text-3xl {
+    font-size: 1.7rem !important;
+  }
+  .basiccourse .col-9 {
+    width: 100% !important;
+  }
+  .basiccourse td,
+  .basiccourse th,
+  .basiccourse h6 {
+    font-size: 12px !important;
+  }
+  .companies .serviceBox .description {
+    font-size: 11px !important;
+  }
+  .companies .serviceBox:before {
+    height: 214px !important;
+  }
+  .companies .swing {
+    -webkit-animation: none;
+            animation: none;
+  }
+  .companies .h-28 {
+    height: 5rem !important;
+  }
+  .success .text-4xl,
+  .success .text-3xl {
+    font-size: 1.3rem !important;
+  }
+  .success .pb-28 {
+    padding-bottom: 4rem !important;
+  }
+  .success ul {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  .success .pb-32 {
+    padding-bottom: 0rem !important;
+  }
+  .success .col-10 {
+    width: 100% !important;
+  }
+  .success .ps-5 {
+    padding-left: 0px !important;
+  }
+  .success .p-5 {
+    padding: 10px 10px !important;
+  }
+  .success p {
+    font-size: 13px !important;
+  }
+  .profile-card {
+    height: 260px !important;
+    margin-bottom: 40px !important;
+  }
+  .profile-card h3 {
+    font-size: 1.1em !important;
+  }
+  .profile-card:hover {
+    height: 330px !important;
+  }
+  .forgetpsw .w-75,
+  .resetpsw .w-75 {
+    width: 100% !important;
+  }
+  .forgetpsw .w-fulls,
+  .resetpsw .w-fulls {
+    width: 100% !important;
+  }
+  .iframe {
+    width: 100% !important;
+  }
+  .footers h2 {
+    text-align: center !important;
+    width: 100% !important;
+  }
+  .footers ul {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    text-align: center !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+  }
+  .footers ul li {
+    padding-bottom: 10px;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 500px) {
+  nav a {
+    font-size: 16px !important;
+  }
+  .head1 {
+    display: none !important;
+  }
+  .head2 {
+    display: none !important;
+  }
+  header .container .mx-auto {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+  }
+  .bannermain .bannerimg {
+    display: block !important;
+    width: 100% !important;
+    padding-top: 80px !important;
+    height: 340px !important;
+  }
+  .bannermain .items {
+    padding-bottom: 74.25%;
+  }
+  .stickycard h3 {
+    font-size: 1.3em !important;
+  }
+  .stickycard .pt-5 {
+    padding-top: 2rem !important;
+  }
+  .stickycard p {
+    font-size: 1.3em !important;
+  }
+  .stickycard .p {
+    font-size: 15px !important;
+  }
+  .stickycard .p-5 {
+    padding: 2rem !important;
+  }
+  .reviews .text-4xl {
+    font-size: 1.7rem !important;
+  }
+  .reviews p {
+    font-size: 15px !important;
+  }
+  .reviews .tv1,
+  .reviews .tv2,
+  .reviews .tv3 {
+    display: none !important;
+  }
+  .reviews .text-xl {
+    font-size: 1em !important;
+    line-height: 21px !important;
+  }
+  .reviews .pt-4 {
+    padding: 1.5rem 0 !important;
+  }
+  .reviews .cont p {
+    font-size: 13px !important;
+  }
+  .reviews .wrap {
+    padding: 40px 0 !important;
+  }
+  .reviews .testim .dots {
+    bottom: 31px !important;
+    left: -16px !important;
+  }
+  .supportbeforecourse ul li {
+    font-size: 13px !important;
+  }
+  .supportaftercourse ul li {
+    font-size: 13px !important;
+  }
+  .supportaftercourse .ps-16 {
+    padding-left: 1rem !important;
+  }
+  .BookSec .flex {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  .BookSec .book {
+    padding-bottom: 10px !important;
+  }
+  .BookSec .BookPara {
+    padding-top: 60px !important;
+  }
+  .BookSec .BookPara p {
+    font-size: 12px !important;
+  }
+  .BookSec .BookPara .pt-5 {
+    padding-top: 1rem !important;
+  }
+  .student-corner .text-4xl {
+    font-size: 1.7rem !important;
+  }
+  .student-corner .sc1,
+  .student-corner .sc2,
+  .student-corner .sc3 {
+    display: none !important;
+  }
+  .student-corner .ps-16 {
+    padding-left: 2rem !important;
+  }
+  .student-corner ul li {
+    font-size: 13px !important;
+  }
+  .student-corner .h-\[400px\] {
+    padding-top: 35px !important;
+  }
+  .student-corner .Btn {
+    width: 140px !important;
+  }
+  .student-corner .Btn::after {
+    display: none !important;
+  }
+  .courses .text-4xl,
+  .courses .text-3xl {
+    font-size: 1.7rem !important;
+  }
+  .courses .pt-32,
+  .courses .ps-40 {
+    padding-top: 0px !important;
+    padding-left: 0px !important;
+  }
+  .courses ul {
+    padding: 0;
+  }
+  .courses ul li {
+    font-size: 13px !important;
+  }
+  .courses .card {
+    text-align: center !important;
+  }
+  .courses .card__overlay a .ms-4 {
+    margin-bottom: 20px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  .courses .batchtime .py-5 {
+    padding: 1rem 12px !important;
+  }
+  .basiccourse .text-4xl,
+  .basiccourse .text-3xl {
+    font-size: 1.7rem !important;
+  }
+  .basiccourse .col-9 {
+    width: 100% !important;
+  }
+  .basiccourse td,
+  .basiccourse th,
+  .basiccourse h6 {
+    font-size: 12px !important;
+  }
+  .companies .serviceBox .description {
+    font-size: 11px !important;
+  }
+  .companies .serviceBox:before {
+    height: 161px !important;
+  }
+  .companies .h-28 {
+    height: 6rem !important;
+  }
+  .companies .swing {
+    -webkit-animation: none !important;
+            animation: none !important;
+  }
+  .success .text-4xl,
+  .success .text-3xl {
+    font-size: 1.3rem !important;
+  }
+  .success .pb-28 {
+    padding-bottom: 4rem !important;
+  }
+  .success .col-10 {
+    width: 100% !important;
+  }
+  .success .ps-5 {
+    padding-left: 0px !important;
+  }
+  .success .p-5 {
+    padding: 10px 10px !important;
+  }
+  .success p {
+    font-size: 13px !important;
+  }
+  .profile-card {
+    height: 282px !important;
+    margin-bottom: 40px !important;
+  }
+  .profile-card h3 {
+    font-size: 1.1em !important;
+  }
+  .profile-card:hover {
+    height: 380px !important;
+  }
+  .forgetpsw .w-75,
+  .resetpsw .w-75 {
+    width: 100% !important;
+  }
+  .forgetpsw .w-fulls,
+  .resetpsw .w-fulls {
+    width: 100% !important;
+  }
+  .iframe {
+    width: 100% !important;
+  }
+  .footers h2 {
+    text-align: center !important;
+    width: 100% !important;
+  }
+  .footers ul {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    text-align: center !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+  }
+  .footers ul li {
+    padding-bottom: 10px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 600px) {
+  nav a {
+    font-size: 16px !important;
+  }
+  .head1 {
+    display: none !important;
+  }
+  .head2 {
+    display: none !important;
+  }
+  header .container {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+  }
+  .bannermain .bannerimg {
+    display: block !important;
+    width: 100% !important;
+    height: 340px !important;
+  }
+  .bannermain .student-corner .Btn {
+    font-size: 10px;
+  }
+  .bannermain .reviews .justify-between {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  .bannermain .card {
+    text-align: center !important;
+  }
+  .bannermain .pt-32,
+  .bannermain .ps-40 {
+    padding-top: 0px !important;
+    padding-left: 0px !important;
+  }
+  .bannermain .card__overlay a .ms-4 {
+    margin-bottom: 20px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  .bannermain .companies .serviceBox:before {
+    height: 176px !important;
+  }
+  .bannermain .footers h2 {
+    text-align: center !important;
+    width: 100% !important;
+  }
+  .bannermain .footers ul {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    text-align: center !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 700px) {
+  .bannermain .bannerimg {
+    display: block !important;
+    width: 100% !important;
+    height: 440px !important;
+  }
+  .bannermain .sm\:pt-32 {
+    padding-top: 0px !important;
+  }
+  .bannermain .items {
+    padding-bottom: 42.25% !important;
+  }
+  .supportaftercourse .ps-16 {
+    padding: 0;
+  }
+  .reviews .justify-between {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  .card .card-img .pt-32 {
+    padding-top: 0px !important;
+  }
+  .card .card-img .ps-40 {
+    padding: 0;
+  }
+  .success .ps-5 {
+    padding: 0;
+  }
+  .success .p-5 {
+    padding: 1rem;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 800px) {
+  .bannermain .bannerimg {
+    display: block !important;
+    width: 100% !important;
+    height: 440px !important;
+  }
+  .bannermain .sm\:pt-32 {
+    padding-top: 0px !important;
+  }
+  .bannermain .items {
+    padding-bottom: 41.25% !important;
+  }
+  .reviews .justify-between {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  .success .p-5 {
+    padding: 1rem;
+  }
+  .success .ps-5 {
+    padding: 0;
+  }
+  .success .col-10 {
+    width: 100%;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 900px) {
+  .bannermain .bannerimg {
+    display: block !important;
+    width: 100% !important;
+    height: 480px !important;
+  }
+  .bannermain .sm\:pt-32 {
+    padding-top: 0px !important;
+  }
+  .bannermain .items {
+    padding-bottom: 26.25% !important;
+  }
+  .reviews .justify-between {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  .success .col-md-10 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .success .ps-5 {
+    padding: 0;
+  }
+}
+/*# sourceMappingURL=MQ.css.map */

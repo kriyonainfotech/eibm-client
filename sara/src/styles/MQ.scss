@@ -1,0 +1,1015 @@
+@media (min-width: 200px) and (max-width: 300px) {
+  // .overflowx {
+  //   overflow-x: hidden !important;
+  // }
+  nav a {
+    font-size: 12px !important;
+  }
+  .head1 {
+    display: none !important;
+  }
+  .head2 {
+    display: none !important;
+  }
+
+  .bannermain {
+    h1 {
+      font-size: 1.7em !important;
+      line-height: 39px !important;
+    }
+    .pt-28 {
+      padding-top: 3rem !important;
+    }
+    .ps-4 {
+      padding-left: 4.5rem !important;
+    }
+
+    .items {
+      padding-bottom: 61.25% !important;
+    }
+    .p-49 {
+      padding: 49px 0 !important;
+    }
+    .h-\[350px\] {
+      height: 280px !important;
+    }
+  }
+  .pb-60 {
+    padding-bottom: 11rem !important;
+  }
+  p {
+    font-size: 12px !important;
+  }
+
+  .footer {
+    padding: 15px;
+  }
+
+  .hidden {
+    display: none;
+  }
+  .stickycard {
+    h3 {
+      font-size: 1.3em !important;
+    }
+    .pt-5 {
+      padding-top: 2rem!important;
+    }
+    p {
+      font-size: 15px !important;
+    }
+    .p-5 {
+      padding: 2rem !important;
+    }
+  }
+  .supportbeforecourse {
+    ul {
+      li {
+        font-size: 13px !important;
+      }
+    }
+  }
+  .supportaftercourse {
+    ul {
+      li {
+        font-size: 13px !important;
+      }
+    }
+    .ps-16 {
+      padding-left: 1rem !important;
+    }
+  }
+  .BookSec {
+    .flex {
+      flex-direction: column !important;
+    }
+    .book {
+      padding-bottom: 10px !important;
+    }
+    .BookPara {
+      padding-top: 60px !important;
+      p {
+        font-size: 15px !important;
+      }
+      .pt-5 {
+        padding-top: 1rem !important;
+      }
+    }
+  }
+  .reviews {
+    .text-4xl {
+      font-size: 1.7rem !important;
+    }
+    p {
+      font-size: 15px !important;
+    }
+    .tv1,
+    .tv2,
+    .tv3 {
+      display: none !important;
+    }
+    .text-xl {
+      font-size: 1em !important;
+      line-height: 21px !important;
+    }
+    .pt-4 {
+      padding: 1.5rem 0 !important;
+    }
+    .cont {
+      p {
+        font-size: 13px !important;
+      }
+    }
+    .wrap {
+      padding: 40px 0 !important;
+    }
+    .testim .dots {
+      bottom: 31px !important;
+      left: -16px !important;
+    }
+  }
+  .certificates {
+    .text-4xl {
+      font-size: 1.7rem !important;
+    }
+    p {
+      font-size: 13px !important;
+    }
+  }
+  .seminar {
+    .text-4xl {
+      font-size: 1.7rem !important;
+    }
+    p {
+      font-size: 13px !important;
+    }
+  }
+
+  //student corner
+  .student-corner {
+    .text-4xl {
+      font-size: 1.7rem !important;
+    }
+    .sc1,
+    .sc2,
+    .sc3 {
+      display: none !important;
+    }
+    .ps-16 {
+      padding-left: 2rem !important;
+    }
+    ul li {
+      font-size: 13px !important;
+    }
+    .h-\[400px\] {
+      padding-top: 35px !important;
+    }
+    .Btn {
+      width: 180px !important;
+    }
+    .Btn::after {
+      display: none !important;
+    }
+  }
+  //courses
+  .courses {
+    .text-4xl,
+    .text-3xl {
+      font-size: 1.7rem !important;
+    }
+    .pt-32,
+    .ps-40 {
+      padding-top: 0px !important;
+      padding-left: 0px !important;
+    }
+    ul {
+      padding: 0;
+    }
+    ul li {
+      font-size: 13px !important;
+    }
+    .card {
+      text-align: center !important;
+    }
+    .card__overlay {
+      a {
+        .ms-4 {
+          margin-bottom: 20px !important;
+          margin-left: 0px !important;
+          margin-right: 0px !important;
+        }
+      }
+    }
+    .batchtime {
+      .py-5 {
+        padding: 1rem 12px !important;
+      }
+    }
+  }
+  .basiccourse {
+    .text-4xl,
+    .text-3xl {
+      font-size: 1.7rem !important;
+    }
+    .col-9 {
+      width: 100% !important;
+    }
+    td,
+    th,
+    h6 {
+      font-size: 12px !important;
+    }
+  }
+  //companies
+  .companies {
+    .serviceBox:before {
+      height: 320px !important;
+    }
+    .h-28 {
+      height: 4rem !important;
+    }
+    .swing{
+      animation: none;
+    }
+  }
+  //our success
+  .success {
+    .text-4xl,
+    .text-3xl {
+      font-size: 1.3rem !important;
+    }
+    .pb-28 {
+      padding-bottom: 4rem !important;
+    }
+    .col-10 {
+      width: 100% !important;
+    }
+    .ps-5 {
+      padding-left: 0px !important;
+    }
+    .p-5 {
+      padding: 10px 5px !important;
+    }
+  }
+  //team
+  .profile-card {
+    height: 181px !important;
+    margin-bottom: 40px !important;
+    h3 {
+      font-size: 1.1em !important;
+    }
+  }
+  .profile-card:hover {
+    height: 258px !important;
+  }
+  //fpsw
+  .forgetpsw,
+  .resetpsw {
+    .w-75 {
+      width: 100% !important;
+    }
+  }
+  //footer
+  .footers{
+    ul li {
+      padding-bottom: 10px;
+    }
+  }
+}
+@media (min-width : 300px) and (max-width: 400px) {
+  //header
+  nav a {
+    font-size: 16px !important;
+  }
+  .head1 {
+    display: none !important;
+  }
+  .head2 {
+    display: none !important;
+  }
+  .container .mx-auto{
+    padding-top: 0px!important;
+    padding-bottom: 0px!important;
+  }
+  //home
+  .bannermain {
+    .bannerimg {
+      display: block !important;
+      width: 100% !important;
+      padding-top: 80px !important;
+      height: 257px !important;
+      .obj4{
+        transform: translateX(-13.736px) translateY(0.312px);
+      }
+      .obj3{
+        transform: translateX(-0.824px) translateY(0.208px);
+      }
+      .obj5{
+        transform: translateX(5.512px) translateY(-5.568px);
+      }
+    }
+    .items{
+      padding-bottom: 78.25%;
+    }
+  }
+  .stickycard {
+    h3 {
+      font-size: 1.3em !important;
+    }
+    .pt-5 {
+      padding-top: 2rem !important;
+    }
+    p {
+      font-size: 1.3em !important;
+    }
+    .p {
+      font-size: 15px !important;
+    }
+    .p-5 {
+      padding: 2rem !important;
+    }
+  }
+  .reviews {
+    .text-4xl {
+      font-size: 1.7rem !important;
+    }
+    p {
+      font-size: 15px !important;
+    }
+    .tv1,
+    .tv2,
+    .tv3 {
+      display: none !important;
+    }
+    .text-xl {
+      font-size: 1em !important;
+      line-height: 21px !important;
+    }
+    .pt-4 {
+      padding: 1.5rem 0 !important;
+    }
+    .cont {
+      p {
+        font-size: 13px !important;
+      }
+    }
+    .wrap {
+      padding: 40px 0 !important;
+    }
+    .testim .dots {
+      bottom: 31px !important;
+      left: -16px !important;
+    }
+  }
+  .supportbeforecourse {
+    ul {
+      li {
+        font-size: 13px !important;
+      }
+    }
+  }
+  .supportaftercourse {
+    ul {
+      li {
+        font-size: 13px !important;
+      }
+    }
+    .ps-16 {
+      padding-left: 1rem !important;
+    }
+  }
+  .BookSec {
+    .flex {
+      flex-direction: column !important;
+    }
+    .book {
+      padding-bottom: 10px !important;
+    }
+    .BookPara {
+      padding-top: 60px !important;
+      p {
+        font-size: 12px !important;
+      }
+      .pt-5 {
+        padding-top: 1rem !important;
+      }
+    }
+  }
+  //student corner
+  .student-corner {
+    .text-4xl {
+      font-size: 1.7rem !important;
+    }
+    .sc1,
+    .sc2,
+    .sc3 {
+      display: none !important;
+    }
+    .ps-16 {
+      padding-left: 2rem !important;
+    }
+    ul li {
+      font-size: 13px !important;
+    }
+    .h-\[400px\] {
+      padding-top: 35px !important;
+    }
+    .Btn {
+      width: 140px !important;
+    }
+    .Btn::after {
+      display: none !important;
+    }
+  }
+  //courses
+  .courses {
+    .text-4xl,
+    .text-3xl {
+      font-size: 1.7rem !important;
+    }
+    .pt-32,
+    .ps-40 {
+      padding-top: 0px !important;
+      padding-left: 0px !important;
+    }
+    ul {
+      padding: 0;
+    }
+    ul li {
+      font-size: 13px !important;
+    }
+    .card {
+      text-align: center !important;
+    }
+    .card__overlay {
+      a {
+        .ms-4 {
+          margin-bottom: 20px !important;
+          margin-left: 0px !important;
+          margin-right: 0px !important;
+        }
+      }
+    }
+    .batchtime {
+      .py-5 {
+        padding: 1rem 12px !important;
+      }
+    }
+  }
+  .basiccourse {
+    .text-4xl,
+    .text-3xl {
+      font-size: 1.7rem !important;
+    }
+    .col-9 {
+      width: 100% !important;
+    }
+    td,
+    th,
+    h6 {
+      font-size: 12px !important;
+    }
+  }
+  //companies
+  .companies {
+    .serviceBox .description {
+      font-size: 11px !important;
+    }
+    .serviceBox:before {
+      height: 214px !important;
+    }
+    .swing{
+      animation: none;
+    }
+    .h-28 {
+      height: 5rem !important;
+    }
+  }
+  //our success
+  .success {
+    .text-4xl,
+    .text-3xl {
+      font-size: 1.3rem !important;
+    }
+    .pb-28 {
+      padding-bottom: 4rem !important;
+    }
+    ul{
+      justify-content: center!important;
+    }
+    .pb-32{
+      padding-bottom: 0rem !important;
+    }
+    .col-10 {
+      width: 100% !important;
+    }
+    .ps-5 {
+      padding-left: 0px !important;
+    }
+    .p-5 {
+      padding: 10px 10px !important;
+    }
+    p {
+      font-size: 13px !important;
+    }
+  }
+  //team
+  .profile-card {
+    height: 260px !important;
+    margin-bottom: 40px !important;
+    h3 {
+      font-size: 1.1em !important;
+    }
+  }
+  .profile-card:hover {
+    height: 330px !important;
+  }
+  //fpsw
+  .forgetpsw,
+  .resetpsw {
+    .w-75 {
+      width: 100% !important;
+    }
+    .w-fulls {
+      width: 100% !important;
+    }
+  }
+  //contact
+  .iframe {
+    width: 100% !important;
+  }
+  //footer
+  .footers{
+    h2{
+      text-align: center!important;
+      width: 100%!important;
+    }
+    ul{
+      justify-content: center!important;
+      text-align: center!important;
+      align-items: center!important;
+      li{
+        padding-bottom: 10px;
+      }
+    }
+  }
+  
+}
+@media (min-width : 400px) and (max-width: 500px) {
+  //header
+  nav a {
+    font-size: 16px !important;
+  }
+  .head1 {
+    display: none !important;
+  }
+  .head2 {
+    display: none !important;
+  }
+  header .container .mx-auto{
+    padding-top: 0px!important;
+    padding-bottom: 0px!important;
+  }
+  //home
+  .bannermain {
+    .bannerimg {
+      display: block !important;
+      width: 100% !important;
+      padding-top: 80px !important;
+      height: 340px !important;
+    }
+    .items{
+      padding-bottom: 74.25%;
+    }
+  }
+  .stickycard {
+    h3 {
+      font-size: 1.3em !important;
+    }
+    .pt-5 {
+      padding-top: 2rem !important;
+    }
+    p {
+      font-size: 1.3em !important;
+    }
+    .p {
+      font-size: 15px !important;
+    }
+    .p-5 {
+      padding: 2rem !important;
+    }
+  }
+  .reviews {
+    .text-4xl {
+      font-size: 1.7rem !important;
+    }
+    p {
+      font-size: 15px !important;
+    }
+    .tv1,
+    .tv2,
+    .tv3 {
+      display: none !important;
+    }
+    .text-xl {
+      font-size: 1em !important;
+      line-height: 21px !important;
+    }
+    .pt-4 {
+      padding: 1.5rem 0 !important;
+    }
+    .cont {
+      p {
+        font-size: 13px !important;
+      }
+    }
+    .wrap {
+      padding: 40px 0 !important;
+    }
+    .testim .dots {
+      bottom: 31px !important;
+      left: -16px !important;
+    }
+  }
+  .supportbeforecourse {
+    ul {
+      li {
+        font-size: 13px !important;
+      }
+    }
+  }
+  .supportaftercourse {
+    ul {
+      li {
+        font-size: 13px !important;
+      }
+    }
+    .ps-16 {
+      padding-left: 1rem !important;
+    }
+  }
+  .BookSec {
+    .flex {
+      flex-direction: column !important;
+    }
+    .book {
+      padding-bottom: 10px !important;
+    }
+    .BookPara {
+      padding-top: 60px !important;
+      p {
+        font-size: 12px !important;
+      }
+      .pt-5 {
+        padding-top: 1rem !important;
+      }
+    }
+  }
+
+  //student corner
+  .student-corner {
+    .text-4xl {
+      font-size: 1.7rem !important;
+    }
+    .sc1,
+    .sc2,
+    .sc3 {
+      display: none !important;
+    }
+    .ps-16 {
+      padding-left: 2rem !important;
+    }
+    ul li {
+      font-size: 13px !important;
+    }
+    .h-\[400px\] {
+      padding-top: 35px !important;
+    }
+    .Btn {
+      width: 140px !important;
+    }
+    .Btn::after {
+      display: none !important;
+    }
+  }
+
+  //courses
+  .courses {
+    .text-4xl,
+    .text-3xl {
+      font-size: 1.7rem !important;
+    }
+    .pt-32,
+    .ps-40 {
+      padding-top: 0px !important;
+      padding-left: 0px !important;
+    }
+    ul {
+      padding: 0;
+    }
+    ul li {
+      font-size: 13px !important;
+    }
+    .card {
+      text-align: center !important;
+    }
+    .card__overlay {
+      a {
+        .ms-4 {
+          margin-bottom: 20px !important;
+          margin-left: 0px !important;
+          margin-right: 0px !important;
+        }
+      }
+    }
+    .batchtime {
+      .py-5 {
+        padding: 1rem 12px !important;
+      }
+    }
+  }
+  .basiccourse {
+    .text-4xl,
+    .text-3xl {
+      font-size: 1.7rem !important;
+    }
+    .col-9 {
+      width: 100% !important;
+    }
+    td,
+    th,
+    h6 {
+      font-size: 12px !important;
+    }
+  }
+  //companies
+  .companies {
+    .serviceBox .description {
+      font-size: 11px !important;
+    }
+    .serviceBox:before {
+      height: 161px !important;
+    }
+    .h-28 {
+      height: 6rem !important;
+    }
+    .swing {
+      animation: none !important;
+    }
+  }
+
+  //our success
+  .success {
+    .text-4xl,
+    .text-3xl {
+      font-size: 1.3rem !important;
+    }
+    .pb-28 {
+      padding-bottom: 4rem !important;
+    }
+    .col-10 {
+      width: 100% !important;
+    }
+    .ps-5 {
+      padding-left: 0px !important;
+    }
+    .p-5 {
+      padding: 10px 10px !important;
+    }
+    p {
+      font-size: 13px !important;
+    }
+  }
+
+  //team
+  .profile-card {
+    height: 282px !important;
+    margin-bottom: 40px !important;
+    h3 {
+      font-size: 1.1em !important;
+    }
+  }
+  .profile-card:hover {
+    height: 380px !important;
+  }
+
+  //fpsw
+  .forgetpsw,
+  .resetpsw {
+    .w-75 {
+      width: 100% !important;
+    }
+    .w-fulls {
+      width: 100% !important;
+    }
+  }
+
+  //contact
+  .iframe {
+    width: 100% !important;
+  }
+   //footer
+   .footers{
+    h2{
+      text-align: center!important;
+      width: 100%!important;
+    }
+    ul{
+      justify-content: center!important;
+      text-align: center!important;
+      align-items: center!important;
+      li{
+        padding-bottom: 10px;
+      }
+    }
+  }
+}
+
+@media (min-width:500px) and (max-width: 600px) {
+   //header
+   nav a {
+    font-size: 16px !important;
+  }
+  .head1 {
+    display: none !important;
+  }
+  .head2 {
+    display: none !important;
+  }
+  header .container{
+    padding-top: 0px!important;
+    padding-bottom: 0px!important;
+  }
+  //home
+  .bannermain {
+    .bannerimg {
+      display: block !important;
+      width: 100% !important;
+      height: 340px !important;
+  }
+  //student corner
+  .student-corner{
+    .Btn{
+      font-size: 10px;
+    }
+  }
+//testim
+.reviews{
+  .justify-between {
+    justify-content: center!important;
+  }
+}
+  //course
+  .card {
+    text-align: center !important;
+  }
+  .pt-32,
+  .ps-40 {
+    padding-top: 0px !important;
+    padding-left: 0px !important;
+  }
+  .card__overlay {
+    a {
+      .ms-4 {
+        margin-bottom: 20px !important;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+      }
+    }
+  }
+  //companies
+  .companies {
+    .serviceBox:before {
+      height: 176px !important;
+    }
+  }
+   //footer
+   .footers{
+    h2{
+      text-align: center!important;
+      width: 100%!important;
+    }
+    ul{
+      justify-content: center!important;
+      text-align: center!important;
+      align-items: center!important;
+    }
+  }
+}
+}
+
+@media (min-width:600px) and (max-width :700px) {
+  //  home
+  .bannermain {
+    .bannerimg {
+      display: block !important;
+      width: 100% !important;
+      height: 440px !important;
+  }
+  .sm\:pt-32 {
+    padding-top: 0px!important;
+  }
+    .items {
+      padding-bottom: 42.25% !important;
+    }
+  }
+  //support after course
+  .supportaftercourse{
+    .ps-16{
+      padding: 0;
+    }
+  }
+  //testim
+.reviews{
+  .justify-between {
+    justify-content: center!important;
+  }
+}
+//course
+.card{
+  .card-img{
+    .pt-32{
+      padding-top: 0px!important;
+    }
+    .ps-40{
+      padding: 0;
+    }
+  }
+}
+//success
+.success{
+  .ps-5{
+    padding: 0;
+  }
+  .p-5{
+    padding: 1rem;
+  }
+}
+}
+
+@media (min-width:700px) and (max-width :800px) {
+  //  home
+  .bannermain {
+    .bannerimg {
+      display: block !important;
+      width: 100% !important;
+      height: 440px !important;
+  }
+  .sm\:pt-32 {
+    padding-top: 0px!important;
+  }
+    .items {
+      padding-bottom: 41.25% !important;
+    }
+  }
+  //testim
+.reviews{
+  .justify-between {
+    justify-content: center!important;
+  }
+}
+//success
+.success{
+  .p-5{
+    padding: 1rem;
+  }
+  .ps-5{
+    padding: 0;
+  }
+  .col-10{
+    width: 100%;
+  }
+}
+}
+
+@media (min-width:800px) and (max-width :900px) {
+  //  home
+  .bannermain {
+    .bannerimg {
+      display: block !important;
+      width: 100% !important;
+      height: 480px !important;
+  }
+  .sm\:pt-32 {
+    padding-top: 0px!important;
+  }
+    .items {
+      padding-bottom: 26.25% !important;
+    }
+  }
+  //testim
+.reviews{
+  .justify-between {
+    justify-content: center!important;
+  }
+}
+//success
+.success{
+  .col-md-10{
+    justify-content: center;
+  }
+  .ps-5{
+    padding: 0;
+  }
+}
+}

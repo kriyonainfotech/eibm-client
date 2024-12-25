@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+$background_color : #f6f6f6;
+$main-color : #6f4ef6;
+
+.background_color{
+    background-color: $background_color;
+}
+.main_color{
+  background-color: $main-color;
+}
+
+.offcanvas{
+    width: 330px!important;
+}
+
+.offcanvas-body{
+    // overflow: hidden;
+    ul{
+        li{
+            transition: all 0.5s;
+        }
+        li:hover{
+            background-color: $background-color;
+        }
+        li.active{
+            background-color: #6f4ef6!important;
+        }
+    }
+}
+
+//srollbar
+::-webkit-scrollbar {
+  width: 2px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: $main-color; 
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $main-color;
+  border-radius: 10px;
+}
+
+// faq
+
+  .faq-drawer__content-wrapper {
+    font-size: 1.25em;
+    line-height: 1.4em;
+    max-height: 0px;
+    // overflow: hidden;
+    transition: 0.25s ease-in-out;
+        .faq-drawer__content{
+            ul{
+                li:hover{
+                   background-color: #f6f6f6; 
+                }
+            }
+        }
+  }
+  
+  .faq-drawer__title {
+    cursor: pointer;
+    display: block;
+    transition: all 0.25s ease-out;
+  }
+
+  /* OPTIONAL HOVER STATE */
+  .faq-drawer__title:hover { 
+    color: #4E4B52  ;
+  }
+  
+  .faq-drawer__trigger:checked
+    + .faq-drawer__title
+    + .faq-drawer__content-wrapper {
+    max-height: 750px;
+  }
+  
+  .faq-drawer__trigger:checked + .faq-drawer__title::after {
+    transform: rotate(-45deg);
+    transition: 0.25s ease-in-out;
+  }
+  
+  input[type="checkbox"] {
+    display: none;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .container {
+      padding: 30px;
+    }
+  }
+
+  //create products
+  .product_create{
+    form{
+        input::placeholder{
+            font-size: 12px!important;
+        }
+    }
+  } 
+
+  //profile
+  

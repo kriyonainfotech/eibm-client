@@ -1,0 +1,23 @@
+a{
+    cursor: pointer;
+    position: relative;
+}
+
+.bg-mainblue{
+
+    background-color: #5577ff!important;
+}
+
+.a-link:before{
+    position: absolute;
+    content: '';
+    background-color: #5577ff;
+    height: 3px!important;
+    width: 0%;
+    bottom: -13px;
+    transition: all 0.5s;
+    left: 0;
+}
+.a-link:hover::before{
+    width: 100%;
+}

@@ -1,0 +1,6 @@
+.footers ul li a:hover{
+    color: #5577ff!important;
+}
+.footers ul li a{
+    transition: all 0.5s;
+}
