@@ -54,30 +54,44 @@ const Signin = () => {
       setmessage(error.response.data.message)
     }
   } 
-  const handlegooglelogin = async() => {
-    try {
-      const res = await signInWithPopup(auth, GoogleauthProvider);
-      const { uid, displayName, email, photoURL, phoneNumber } = res.user;
-  
-      const userData = {
-        uid: uid,
-        name: displayName,
-        email: email,
-        profilePic: photoURL,
-      };
-  
-      if (phoneNumber) {
-        userData.phone = phoneNumber;
-      }
-  
-      const response = await axios.post(`${apiurl}/auth/google`, userData,{ withCredentials: true });
-      
-      navigate('/');
-    } catch (error) {
-      console.log("Login error:", error);
-    }
-    
+  const handlegooglelogin = async () => {
+  const navigate = useNavigate(); // Ensure `navigate` is defined within the scope
+
+  try {
+    // Trigger Google Sign-In popup
+    const provider = new GoogleAuthProvider();
+    const res = await signInWithPopup(auth, provider);
+
+    // Extract user information
+    const { uid, displayName, email, photoURL, phoneNumber } = res.user;
+
+    // Prepare user data
+    const userData = {
+      uid,
+      name: displayName,
+      email,
+      profilePic: photoURL,
+      phone: phoneNumber || null, // Include phone number if available
+    };
+
+    // Send data to the backend
+    const response = await axios.post(
+      `${apiurl}/auth/google`,
+      userData,
+      { withCredentials: true } // Ensure cookies or credentials are sent
+    );
+
+    console.log("Backend response:", response.data);
+
+    // Navigate to the home page upon successful login
+    navigate("/");
+  } catch (error) {
+    console.error("Login error:", error);
+
+    // Show a meaningful error message to the user (optional)
+    alert("Failed to log in. Please try again.");
   }
+}
   return (
     <div className="load bg-mainpurple">
       <ToastContainer />
