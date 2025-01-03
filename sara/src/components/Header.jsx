@@ -38,7 +38,7 @@ const Header = () => {
         const res = await axios.get(`${apiurl}/auth/getuser`, {
           withCredentials: true,
         });
-       
+
         if (res.data.users) {
           setUser(res.data.users);
         } else if (res.data.googleuser) {
@@ -56,7 +56,7 @@ const Header = () => {
       const res = await axios.get(`${apiurl}/auth/logout`, {
         withCredentials: true,
       });
-      
+
       navigate("/signin");
     } catch (error) {
       console.log(error);
@@ -71,136 +71,136 @@ const Header = () => {
             <div className="nav-links justify-between col-12 flex text-center items-center">
               {/* Offcanvas */}
               <div className=" px-3 xs:block sm:block md:block lg:hidden xl:hidden">
-              {" "}
-              <button
-                className="text-4xl"
-                type="button"
-                data-bs-toggle="offcanvas"
-                data-bs-target="#offcanvasWithBothOptions"
-                aria-controls="offcanvasWithBothOptions"
-              >
-                <IoMenuSharp/>
-              </button>
-              <div
-                className="offcanvas offcanvas-start h-screen"
-                data-bs-scroll="true"
-                data-bs-backdrop="false"
-                tabIndex={-1}
-                id="offcanvasScrolling"
-                aria-labelledby="offcanvasScrollingLabel"
-              >
-                <div className="offcanvas-header">
-                  <h5 className="offcanvas-title" id="offcanvasScrollingLabel">
-                    Colored with scrolling
-                  </h5>
-                  <button
-                    type="button"
-                    className="btn-close text-reset"
-                    data-bs-dismiss="offcanvas"
-                    aria-label="Close"
-                  />
+                {" "}
+                <button
+                  className="text-4xl"
+                  type="button"
+                  data-bs-toggle="offcanvas"
+                  data-bs-target="#offcanvasWithBothOptions"
+                  aria-controls="offcanvasWithBothOptions"
+                >
+                  <IoMenuSharp />
+                </button>
+                <div
+                  className="offcanvas offcanvas-start h-screen"
+                  data-bs-scroll="true"
+                  data-bs-backdrop="false"
+                  tabIndex={-1}
+                  id="offcanvasScrolling"
+                  aria-labelledby="offcanvasScrollingLabel"
+                >
+                  <div className="offcanvas-header">
+                    <h5 className="offcanvas-title" id="offcanvasScrollingLabel">
+                      Colored with scrolling
+                    </h5>
+                    <button
+                      type="button"
+                      className="btn-close text-reset"
+                      data-bs-dismiss="offcanvas"
+                      aria-label="Close"
+                    />
+                  </div>
+                  <div className="offcanvas-body">
+
+                  </div>
                 </div>
-                <div className="offcanvas-body">
-                  
+                <div
+                  className="offcanvas offcanvas-start h-screen"
+                  tabIndex={-1}
+                  id="offcanvasWithBackdrop"
+                  aria-labelledby="offcanvasWithBackdropLabel"
+                >
+                  <div className="offcanvas-header">
+                    <h5
+                      className="offcanvas-title"
+                      id="offcanvasWithBackdropLabel"
+                    >
+                      {/* Offcanvas with backdrop */}
+                    </h5>
+                    <button
+                      type="button"
+                      className="btn-close text-reset"
+                      data-bs-dismiss="offcanvas"
+                      aria-label="Close"
+                    />
+                  </div>
+                  <div className="offcanvas-body">
+                    <p>.....</p>
+                  </div>
+                </div>
+                <div
+                  className="offcanvas offcanvas-start h-screen"
+                  data-bs-scroll="true"
+                  tabIndex={-1}
+                  id="offcanvasWithBothOptions"
+                  aria-labelledby="offcanvasWithBothOptionsLabel"
+                >
+                  <div className="offcanvas-header">
+                    <h5
+                      className="offcanvas-title"
+                      id="offcanvasWithBothOptionsLabel"
+                    >
+                      {/* Backdroped with scrolling */}
+                    </h5>
+                    <button
+                      type="button"
+                      className="btn-close text-reset"
+                      data-bs-dismiss="offcanvas"
+                      aria-label="Close"
+                    />
+                  </div>
+                  <div className="offcanvas-body">
+                    <p>
+                      <div className="">
+                        <Link
+                          to={"/"}
+                          className="block text-center text-xl py-3 text-mainblue font-medium text-decoration-none"
+                        >
+                          Home
+                        </Link>
+                        <Link
+                          to={"/studentcorner"}
+                          className="block text-center text-xl py-3 text-mainblue font-medium text-decoration-none"
+                        >
+                          Student Corner
+                        </Link>
+                        <Link
+                          to={"/courses"}
+                          className="block text-center text-xl py-3 text-mainblue font-medium text-decoration-none"
+                        >
+                          Courses
+                        </Link>
+                        <Link
+                          to={"/companies"}
+                          className="block text-center text-xl py-3 text-mainblue font-medium text-decoration-none"
+                        >
+                          Our Companies
+                        </Link>
+                      </div>
+                      <div className="">
+                        <Link
+                          to={"/success"}
+                          className="block text-center text-xl py-3 text-mainblue font-medium text-decoration-none"
+                        >
+                          Success Story
+                        </Link>
+                        <Link
+                          to={"/team"}
+                          className="block text-center text-xl py-3 text-mainblue font-medium text-decoration-none"
+                        >
+                          Team
+                        </Link>
+                        <Link
+                          to={"/contact"}
+                          className="block text-center text-xl py-3 text-mainblue font-medium text-decoration-none"
+                        >
+                          Support Team
+                        </Link>
+                      </div>
+                    </p>
+                  </div>
                 </div>
               </div>
-              <div
-                className="offcanvas offcanvas-start h-screen"
-                tabIndex={-1}
-                id="offcanvasWithBackdrop"
-                aria-labelledby="offcanvasWithBackdropLabel"
-              >
-                <div className="offcanvas-header">
-                  <h5
-                    className="offcanvas-title"
-                    id="offcanvasWithBackdropLabel"
-                  >
-                    {/* Offcanvas with backdrop */}
-                  </h5>
-                  <button
-                    type="button"
-                    className="btn-close text-reset"
-                    data-bs-dismiss="offcanvas"
-                    aria-label="Close"
-                  />
-                </div>
-                <div className="offcanvas-body">
-                  <p>.....</p>
-                </div>
-              </div>
-              <div
-                className="offcanvas offcanvas-start h-screen"
-                data-bs-scroll="true"
-                tabIndex={-1}
-                id="offcanvasWithBothOptions"
-                aria-labelledby="offcanvasWithBothOptionsLabel"
-              >
-                <div className="offcanvas-header">
-                  <h5
-                    className="offcanvas-title"
-                    id="offcanvasWithBothOptionsLabel"
-                  >
-                    {/* Backdroped with scrolling */}
-                  </h5>
-                  <button
-                    type="button"
-                    className="btn-close text-reset"
-                    data-bs-dismiss="offcanvas"
-                    aria-label="Close"
-                  />
-                </div>
-                <div className="offcanvas-body">
-                  <p>
-                  <div className="">
-                <Link 
-                  to={"/"}
-                  className="block text-center text-xl py-3 text-mainblue font-medium text-decoration-none"
-                >
-                  Home
-                </Link>
-                <Link
-                  to={"/studentcorner"}
-                  className="block text-center text-xl py-3 text-mainblue font-medium text-decoration-none"
-                >
-                  Student Corner
-                </Link>
-                <Link
-                  to={"/courses"}
-                  className="block text-center text-xl py-3 text-mainblue font-medium text-decoration-none"
-                >
-                  Courses
-                </Link>
-                <Link
-                  to={"/companies"}
-                  className="block text-center text-xl py-3 text-mainblue font-medium text-decoration-none"
-                >
-                  Our Companies
-                </Link>
-              </div>
-              <div className="">
-                <Link
-                  to={"/success"}
-                  className="block text-center text-xl py-3 text-mainblue font-medium text-decoration-none"
-                >
-                  Success Story
-                </Link>
-                <Link
-                  to={"/team"}
-                  className="block text-center text-xl py-3 text-mainblue font-medium text-decoration-none"
-                >
-                  Team
-                </Link>
-                <Link
-                  to={"/contact"}
-                  className="block text-center text-xl py-3 text-mainblue font-medium text-decoration-none"
-                >
-                  Support Team
-                </Link>
-              </div>
-                  </p>
-                </div>
-              </div>
-             </div>
 
               {/* Navigation Links */}
               <div className="head1 flex items-center justify-between flex-wrap col-5 xs:hidden sm:hidden md:hidden lg:flex xl:flex">
@@ -279,7 +279,7 @@ const Header = () => {
                       key={user ? user.profilePic : googleUser.profilePic}
                       src={
                         user
-                          ? `${apiurl}/uploads/${user.profilePic}`
+                          ? `${user.profilePic}`
                           : googleUser.profilePic
                       }
                       alt="profile"
@@ -297,17 +297,17 @@ const Header = () => {
                         Logout
                       </button>
                     </li>
-                    { 
+                    {
                       user?.role == "admin" ? (
                         <li>
-                        <Link className="dropdown-item" to={'/admin/dashboard'}>
-                          Admin
-                        </Link>
-                      </li>
-                       ):(
+                          <Link className="dropdown-item" to={'/admin/dashboard'}>
+                            Admin
+                          </Link>
+                        </li>
+                      ) : (
                         ""
                       )
-                    } 
+                    }
                   </ul>
                 </div>
               ) : (
